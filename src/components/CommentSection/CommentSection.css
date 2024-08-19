@@ -1,0 +1,14 @@
+.comment-section-container {
+  display: block;
+  position: relative;
+}
+
+.comment-section-container::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  width: 1px; /* Adjust to your desired thickness */
+  background-color: #d2d7da; /* This is the color of the line */
+}
